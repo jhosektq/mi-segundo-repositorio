@@ -1,3 +1,131 @@
-body{
-    background-color: aqua;
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+  
+}
+h1{
+    background-color:gray;
+    color: white;
+    background-image: url('./imagenes/pc1.jpg');
+    background-size: 500px, 500px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    height: 330px;
+    letter-spacing: -.2px;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1 strong{
+    color: rgb(44, 44, 195);
+}
+.project-details{
+    width: 500px; 
+    height: 500px;
+    margin: 10px; 
+    margin-bottom: 15px;
+    display: inline-block;
+
+}
+.project-imageContainer{
+    width: 500px;
+    height: 300px;
+    display: inline;
+}
+header{
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    justify-content: space-between;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.project{
+    /*border-top-color: rgb(93, 9, 9);
+    border-bottom-color: rgb(93, 9, 9);
+    border-width: 10px;
+    border-style: solid;*/
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    height: 500px;  
+    box-sizing: border-box; 
+    background:white;
+    color: black;
+    display: flex;
+}
+.project-options{
+    margin-bottom: 0;
+}
+.Portafolio{
+    background:whitesmoke;
+    color:black;
+    padding: 20px;
+}
+h2{
+    margin: 0;
+}
+.image-project{
+width: 500px;
+height: 300px;
+}
+ol,
+ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+figure{
+    margin: 0px;   
+}
+header ol{
+display: flex;
+}
+header ol li{
+height: inherit;
+align-items: center;    
+}
+.footer{
+    background-color: rgb(46, 45, 45);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer a{
+    color: white;
+}
+footer img{
+vertical-align: middle;
+}
+h2{
+    color:rgb(44, 44, 195);
+    font-family:  'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.project-description{
+
 }
